@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Style2.css">
+</head>
+    <body>
+    
+        <div class="container">
+            <header class="header">
+                <h1 id="title" class="text-center">
+                Environment & Plantation Survey Form</h1>
+                </h1>
+               <p id="description" class="description text-center">
+                "Thank you for taking the time to help us improve the platform."
+
+               </p>
+            </header>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">
+                        Name
+                    </label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required fdprocessedid="8zmwq4">
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required fdprocessedid="td1gk">
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number">
+                        "Age"
+                        <span class="clue">(optional)
+
+                        </span>
+                    </label>
+                    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" fdprocessedid="7p315g">
+                </div>
+                <div class="form-group">
+                    <p> In a  year how many trees you plant?</p>
+                    <select id="dropdown" name="role" class="form-control" required fdprocessedid="bq1z6k">
+                        <option disabled selected value>
+                            Trees planted by you every year</option>
+                            <option value="5">5</option>
+                        </option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Would you recommend planting trees to your friend?</p>
+                    <label>
+                        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+                    "Definitely"
+                    </label>
+                    <label>
+                        <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+                        "Maybe"
+                    </label>
+                    <label>
+                        <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                        "Not sure"
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>According to you why planting trees are important?</p>
+                    <select id="most-like" name="mostlike" class="form-control" required fdprocessedid="qs6o4i">
+                        <option disabled selected value>
+                            Select an option</option>
+                            <option value="For Greenary">For Greenary</option>
+                            <option value="For Fruits">For Fruits</option>
+                            <option value="For Environment">For Environment</option>
+                            <option value="For Shade">For Shade</option>
+                
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>
+                        "What tou you like to see improved?"
+                        <span class="clue">(Check all that apply)</span>
+                    </p>
+                    <label>
+                        <input name="prefer" value="Environment" type="checkbox" class="input-checkbox">
+                        "Environment"
+                    </label>
+                    </div>
+                    <label>
+                        <input name="prefer" value="Poverty" type="checkbox" class="input-checkbox">
+                        "Poverty"
+                    </label>
+                    </div>
+                    <label>
+                    <input name="prefer" value="Global-Warming" type="checkbox" class="input-checkbox">
+                    "Global-Warming"
+                </label>
+            </div>
+            
+               
+                
+                <label>
+                    <input name="prefer" value="Education"  type="checkbox" class="input-checkbox">
+                    "Education"
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button" fdprocessedid="ebhsar">Submit</button>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
